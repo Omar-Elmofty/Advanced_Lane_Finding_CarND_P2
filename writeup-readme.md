@@ -14,9 +14,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
+[image1]: ./writeup-readme_images/calibration3.jpg
+[image2]: ./writeup-readme_images/calibration3_calibrated.jpg
+[image3]: .
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
@@ -38,7 +38,8 @@ Step4: cv2.calibrateCamera uses objectpoints and imagepoints lists to produce th
 The function undistort_image is then uses the camera matrix and distortion coefficients to undistort images.
 
 An example of an image brefore and after calibration is shown below
-
+![alt text][image1]
+![alt text][image2]
 
 ### Pipeline (single images)
 
