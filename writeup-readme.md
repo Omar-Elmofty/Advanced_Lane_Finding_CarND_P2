@@ -38,8 +38,7 @@ Step4: cv2.calibrateCamera uses objectpoints and imagepoints lists to produce th
 The function undistort_image is then uses the camera matrix and distortion coefficients to undistort images.
 
 An example of an image brefore and after calibration is shown below
-![alt text][image1]
-![alt text][image2]
+![alt text][image1]![alt text][image2]
 
 ### Pipeline (single images)
 
