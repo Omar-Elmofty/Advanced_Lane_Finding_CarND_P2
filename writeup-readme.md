@@ -16,10 +16,10 @@ The goals / steps of this project are the following:
 
 [image1]: ./writeup-readme_images/calibration3.jpg
 [image2]: ./writeup-readme_images/calibration3_calibrated.jpg
-[image3]: .writeup-readme_images/thresholded_img.jpg
-[image4]: .writeup-readme_images/warped_img.jpg
-[image5]: .writeup-readme_images/lane_highlighed.jpg
-[image6]: .writeup-readme_images/lane_unwarped.jpg
+[image3]: ./writeup-readme_images/thresholded_img.jpg
+[image4]: ./writeup-readme_images/warped_img.jpg
+[image5]: ./writeup-readme_images/lane_highlighed.jpg
+[image6]: ./writeup-readme_images/lane_unwarped.jpg
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
