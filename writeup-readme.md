@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 [image2]: ./writeup-readme_images/calibration3_calibrated.jpg
 [image3]: .writeup-readme_images/thresholded_img.jpg
 [image4]: .writeup-readme_images/warped_img.jpg
-[image5]: .writeup-readme_images/lane_highlighet.jpg
-[image6]: ./examples/example_output.jpg "Output"
+[image5]: .writeup-readme_images/lane_highlighed.jpg
+[image6]: .writeup-readme_images/lane_unwarped.jpg
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -35,6 +35,11 @@ Step2: Calibration images are loaded
 Step3: For each of the training images, convert image to gray scale, then find the coordinates for the chess board corners using the function  cv2.findChessboardCorners. The object points and the image points are then appended to the objectpoints and imagepoints lists respectively.
 Step4: cv2.calibrateCamera uses objectpoints and imagepoints lists to produce the camer matrix and the distortion coefficients.
 
+The function undistort_image uses the camera matrix and distortion coefficients (output from camera_calibration function) to undistort images.
+
+An example of an image brefore and after calibration is shown below
+![Before Calibration][image1] 
+![After Calibration][image2]
 
 
 
@@ -42,11 +47,8 @@ Step4: cv2.calibrateCamera uses objectpoints and imagepoints lists to produce th
 
 #### 1. Provide an example of a distortion-corrected image.
 
-The function undistort_image uses the camera matrix and distortion coefficients (output from camera_calibration function) to undistort images.
-
-An example of an image brefore and after calibration is shown below
-![alt text][image1] ![alt text][image2]
-
+Here is an example of an undistorted image of the road.
+![Undistorted_image_of_road][image6]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
